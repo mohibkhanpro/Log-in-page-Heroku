@@ -1,0 +1,158 @@
+body{
+    background-color:#534292 ;
+}
+
+.container{
+    background-color:#534292;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child{
+    background-color:#534292 ;
+    margin: 38px;
+    padding: 20px;
+    text-align: center;
+    /* border: 4px solid black; */
+    margin-bottom: 2px;
+}
+img{
+    height: 77px;
+    border-radius: 9px;
+}
+
+.content{
+    background-color: white;
+    width: 430px;
+    height: 442px;
+    border-radius: 8px;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 200;
+    color: #664986;
+}
+
+form {
+    color: #62748e;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+
+
+.email{
+    margin: 20px;
+}
+
+input{
+    height: 36px;
+    width: 258px;
+    margin-top: 6px;
+    border-radius: 1px solid #4a5568 0.2;
+    
+}
+
+.button{
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    padding-left: 6px;
+}
+
+button{
+    background-color:#60467e ;
+    height: 52px;
+    width: 312px;
+    /* display: flex;
+    align-items: center; */
+    border: 1px solid transparent;
+    color: white;
+    font-weight: normal;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 98px;
+}
+pre{
+    font-size: 18px;
+    margin-top: -12px;
+    color: #4a5568;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a{
+    margin-top: 22px;
+}
+
+a{
+    color: white;
+    /* margin-top: 22px;
+    text-decoration: underline;
+    display: inline; */
+    margin-left: 30px;
+}
+
+.end{
+    height: 56px;
+    background-color: black;
+    margin-top: 114px;
+    width:581px;
+    background-color: #534292;
+    border-top: 1px solid white;
+    border-color: rgba(255,255,255,0.2);
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin-top: 12px;
+}
+
+ul{
+    margin-right: 12px;
+    display: flex;
+    flex-flow: row;
+}
+li{
+    list-style-type: none;
+    display: flex;
+ 
+}
+.links{
+    display: flex;
+    
+}
+.copyright{
+    margin-top: -14px;
+    padding-left: 42px;
+}
+
+h5{
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-feild{
+    padding-left: 55px;
+    
+}
+.icon{
+    
+}
+.fa{
+    position: relative;
+    top: -29px;
+    left: 19px;
+    font-size: 1.4em;
+}
